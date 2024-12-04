@@ -33,7 +33,7 @@ def trim_all_videos_in_folder(folder_path, start_time=0, end_time=5):
     for file_name in os.listdir(folder_path):
         file_path = os.path.join(folder_path, file_name)
         
-        # Check if the file is a video (you can extend this to check for other formats)
+        # Check if the file is a video
         if file_name.lower().endswith(('.mp4', '.mov', '.avi', '.mkv', '.flv')):
             total_files += 1
             if trim_video(file_path, start_time, end_time):
