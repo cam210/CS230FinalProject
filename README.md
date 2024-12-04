@@ -1,2 +1,2 @@
 # CS230FinalProject
-Predicting UCL injury from video data of pitcher mechanics 
+This is a repository for Cameron Burton's final project for CS230, Predicting pitcher injury through pose estimation keypoint data.
